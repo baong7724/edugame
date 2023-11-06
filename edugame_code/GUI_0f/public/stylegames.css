@@ -1,0 +1,1259 @@
+body {
+    transform-origin: top left;
+    transform: scale(0.95); 
+  }
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto; 
+  }
+  
+  #content {
+    max-width: 100%;
+    max-height: 100%;
+  }  
+.all-game,
+.all-game * {
+  box-sizing: border-box;
+}
+.all-game {
+  background: #171a21;
+  width: 1440px;
+  height: 2399px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-141 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 53px;
+  top: 1px;
+}
+.rectangle-23 {
+  background: #171a21;
+  flex-shrink: 0;
+  width: 1327px;
+  height: 80px;
+  position: relative;
+}
+.group-27 {
+  flex-shrink: 0;
+  width: 1320px;
+  height: 58px;
+  position: static;
+}
+.rectangle-2 {
+  background: #2c313d;
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  left: 302px;
+  top: 89px;
+}
+.rectangle-5 {
+  background: #2c313d;
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  left: 1239px;
+  top: 89px;
+}
+.rectangle-4 {
+  background: #2c313d;
+  width: 1320px;
+  height: 1px;
+  position: absolute;
+  left: 7px;
+  top: 80px;
+}
+.rectangle-6 {
+  background: #2c313d;
+  width: 1320px;
+  height: 1px;
+  position: absolute;
+  left: 7px;
+  top: 137px;
+}
+.search {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  opacity: 0.4000000059604645;
+  position: absolute;
+  left: 356px;
+  top: 99px;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 63px;
+  top: 99px;
+}
+.games {
+  color: #78abff;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.favorites {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.history {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.burger {
+  position: absolute;
+  left: 15px;
+  top: 97px;
+  overflow: visible;
+}
+.search2 {
+  position: absolute;
+  left: 324px;
+  top: 97px;
+  overflow: visible;
+}
+.xmlid-1 {
+  flex-shrink: 0;
+  width: 132.71px;
+  height: 39.88px;
+  position: static;
+}
+.xmlid-2 {
+  position: absolute;
+  left: 6.8px;
+  top: 59.23px;
+  transform: translate(0px, -39.88px);
+  overflow: visible;
+}
+.frame-33 {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 52.47px;
+  top: 30.89px;
+  overflow: visible;
+}
+.frame-7 {
+  padding: 0px 14px 0px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 52px;
+  position: absolute;
+  left: 1239px;
+  top: 82px;
+}
+.frame {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.login {
+  color: #e7e7e7;
+  text-align: left;
+  font: 400 12px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.all-games {
+  color: #f5f5f5;
+  text-align: left;
+  font: 700 40px "SF Pro Display", sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 181px;
+}
+.frame-251 {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1323px;
+  position: absolute;
+  left: calc(50% - 661px);
+  top: 274px;
+}
+.frame-40 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-1 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-1 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-41 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-2 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-2 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-42 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-3 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-3 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-43 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-4 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-4 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-44 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-5 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.tilte-5 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.gamev-6 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-6 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+  height: 24px;
+}
+.frame-142 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.gamev-7 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-7 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-7 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+  height: 24px;
+}
+.frame-143 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-8 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.tilte-8 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-144 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-9 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-9 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-145 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-10 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-10 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-146 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-11 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-11 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-11 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-147 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-12 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-12 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-148 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-13 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-13 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-149 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-14 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-14 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-150 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-15 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-15 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-15 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-151 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-16 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-16 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-16 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-152 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-17 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-17 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.tilte-17 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-153 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.gamev-18 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-18 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-18 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+  height: 24px;
+}
+.frame-154 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.gamev-19 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-19 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-19 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+  height: 24px;
+}
+.frame-155 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-20 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-20 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.tilte-20 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-156 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-21 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-21 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-21 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-157 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-22 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-22 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-22 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-158 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-23 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-23 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-23 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-159 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-24 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-24 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-24 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-160 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-25 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-25 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-25 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-161 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-26 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-26 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-26 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-162 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-27 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-27 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-27 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+}
+.frame-163 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-28 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-28 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-28 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-164 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-29 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-29 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.tilte-29 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-165 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.gamev-30 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-30 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-30 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+  height: 24px;
+}
+.frame-166 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.gamev-31 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-31 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.title-31 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 213px;
+  height: 24px;
+}
+.frame-167 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gamev-32 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 213px;
+  height: 284px;
+  position: relative;
+}
+.game-32 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 213px;
+  position: relative;
+}
+.tilte-32 {
+  color: #f5f5f5;
+  text-align: center;
+  font: 500 16px "SF Pro Display", sans-serif;
+  position: relative;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Publishers</title>
+</head>
+<body>
+  <h1>Publishers</h1>
+  <ul>
+    <% publishers.forEach(function(publisher) { %>
+      <li>
+        <a href="/publishers/<%= publisher.publisher_id %>"><%= publisher.name %></a>
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>

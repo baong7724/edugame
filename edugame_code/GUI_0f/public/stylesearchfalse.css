@@ -1,0 +1,216 @@
+body {
+    transform-origin: top left;
+    transform: scale(0.95); 
+  }
+  html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: auto; 
+    }
+    
+    #content {
+      max-width: 100%;
+      max-height: 100%;
+    }  
+.not-found,
+.not-found * {
+  box-sizing: border-box;
+}
+.not-found {
+  background: #171a21;
+  width: 1440px;
+  height: 833px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-141 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 53px;
+  top: 1px;
+}
+.rectangle-23 {
+  background: #171a21;
+  flex-shrink: 0;
+  width: 1327px;
+  height: 80px;
+  position: relative;
+}
+.group-27 {
+  flex-shrink: 0;
+  width: 1320px;
+  height: 58px;
+  position: static;
+}
+.rectangle-2 {
+  background: #2c313d;
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  left: 302px;
+  top: 89px;
+}
+.rectangle-5 {
+  background: #2c313d;
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  left: 1239px;
+  top: 89px;
+}
+.rectangle-4 {
+  background: #2c313d;
+  width: 1320px;
+  height: 1px;
+  position: absolute;
+  left: 7px;
+  top: 80px;
+}
+.rectangle-6 {
+  background: #2c313d;
+  width: 1320px;
+  height: 1px;
+  position: absolute;
+  left: 7px;
+  top: 137px;
+}
+.search {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  opacity: 0.4000000059604645;
+  position: absolute;
+  left: 356px;
+  top: 99px;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 63px;
+  top: 99px;
+}
+.games {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.favorites {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.history {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.burger {
+  position: absolute;
+  left: 15px;
+  top: 97px;
+  overflow: visible;
+}
+.search2 {
+  position: absolute;
+  left: 324px;
+  top: 97px;
+  overflow: visible;
+}
+.xmlid-1 {
+  flex-shrink: 0;
+  width: 132.71px;
+  height: 39.88px;
+  position: static;
+}
+.xmlid-2 {
+  position: absolute;
+  left: 6.8px;
+  top: 59.23px;
+  transform: translate(0px, -39.88px);
+  overflow: visible;
+}
+.frame-33 {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 52.47px;
+  top: 30.89px;
+  overflow: visible;
+}
+.frame-7 {
+  padding: 0px 14px 0px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 52px;
+  position: absolute;
+  left: 1239px;
+  top: 82px;
+}
+.frame {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.login {
+  color: #e7e7e7;
+  text-align: left;
+  font: 400 12px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.no-result {
+  color: #f5f5f5;
+  text-align: left;
+  font: 700 40px "SF Pro Display", sans-serif;
+  position: absolute;
+  left: calc(50% - 96px);
+  top: calc(50% - 23.5px);
+}
+.frame-248 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 60px;
+  top: 181px;
+}
+.search-type {
+  color: #f5f5f5;
+  text-align: left;
+  font: 700 40px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.search-what {
+  color: #f5f5f5;
+  text-align: left;
+  font: 700 40px "SF Pro Display", sans-serif;
+  position: relative;
+}

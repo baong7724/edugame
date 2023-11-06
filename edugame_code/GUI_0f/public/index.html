@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eduGame</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="homepage">
+        <div class="frame-238">
+          <div class="rectangle-23"></div>
+      
+          <div class="group-27">
+            <div class="rectangle-2"></div>
+      
+            <div class="rectangle-5"></div>
+      
+            <div class="rectangle-4"></div>
+      
+            <div class="rectangle-6"></div>
+      
+            <div class="search">Search</div>
+      
+            <div class="frame-1">
+              <div class="games">Games</div>
+      
+              <div class="favorites">Favorites</div>
+      
+              <div class="history">History</div>
+            </div>
+      
+            <svg
+              class="burger"
+              id = "burger-button"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.83333 8.66667H19.8333C20.0543 8.66667 20.2663 8.57887 20.4226 8.42259C20.5789 8.26631 20.6667 8.05435 20.6667 7.83333C20.6667 7.61232 20.5789 7.40036 20.4226 7.24408C20.2663 7.0878 20.0543 7 19.8333 7H4.83333C4.61232 7 4.40036 7.0878 4.24408 7.24408C4.0878 7.40036 4 7.61232 4 7.83333C4 8.05435 4.0878 8.26631 4.24408 8.42259C4.40036 8.57887 4.61232 8.66667 4.83333 8.66667ZM19.8333 11.1667H4.83333C4.61232 11.1667 4.40036 11.2545 4.24408 11.4107C4.0878 11.567 4 11.779 4 12C4 12.221 4.0878 12.433 4.24408 12.5893C4.40036 12.7455 4.61232 12.8333 4.83333 12.8333H19.8333C20.0543 12.8333 20.2663 12.7455 20.4226 12.5893C20.5789 12.433 20.6667 12.221 20.6667 12C20.6667 11.779 20.5789 11.567 20.4226 11.4107C20.2663 11.2545 20.0543 11.1667 19.8333 11.1667ZM19.8333 15.3333H4.83333C4.61232 15.3333 4.40036 15.4211 4.24408 15.5774C4.0878 15.7337 4 15.9457 4 16.1667C4 16.3877 4.0878 16.5996 4.24408 16.7559C4.40036 16.9122 4.61232 17 4.83333 17H19.8333C20.0543 17 20.2663 16.9122 20.4226 16.7559C20.5789 16.5996 20.6667 16.3877 20.6667 16.1667C20.6667 15.9457 20.5789 15.7337 20.4226 15.5774C20.2663 15.4211 20.0543 15.3333 19.8333 15.3333Z"
+                fill="#ECEFF4"
+              />
+            </svg>
+            <div id="category-menu" class="category-menu" style="display: none;">
+              <svg
+              class="catgories-box"
+              width="622"
+              height="227"
+              viewBox="0 0 622 227"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_d_99_1046)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24.1962 7.82759L19 0L13.6944 7.99248C5.95028 9.11013 0 15.774 0 23.8276V211C0 219.837 7.16343 227 16 227H606C614.837 227 622 219.837 622 211V23.8276C622 14.991 614.837 7.82759 606 7.82759H24.1962Z"
+                  fill="#EBEBEB"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_99_1046"
+                  x="-20"
+                  y="-18"
+                  width="662"
+                  height="267"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="2" />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.67451 0 0 0 0 0.843137 0 0 0 0 1 0 0 0 0.4 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_99_1046"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_99_1046"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+
+            <div class="frame-246">
+              <div class="categories">Categories:</div>
+
+              <div class="category">
+                <div class="category-1">
+                  <div class="_201">Action</div>
+                  <div class="_202">Adventure</div>
+                  <div class="_203">Puzzle</div>
+                  <div class="_204">Co-operative</div>
+                  <div class="_205">Strategy</div>
+                </div>
+
+                <div class="category-2">
+                  <div class="_206">Survival</div>
+                  <div class="_207">All sports</div>
+                  <div class="_208">Casual</div>
+                  <div class="_209">Fighting</div>
+                  <div class="_2010">City and Settlement</div>
+                </div>
+
+                <div class="category-3">
+                  <div class="_2011">Open World</div>
+                  <div class="_2012">Rogue-like</div>
+                  <div class="_2013">Role-playing</div>
+                  <div class="_2014">Simulation</div>
+                  <div class="_2015">Anime</div>
+                </div>
+
+                <div class="category-4">
+                  <div class="_2016">VR titles</div>
+                  <div class="_2017">Horror</div>
+                  <div class="_2018">Visual Novel</div>
+                  <div class="_2019">Free to Play</div>
+                  <div class="_2020">Sci-fi and Cyberpunk</div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <script>
+              var burgerButton = document.getElementById('burger-button');
+              var menu = document.getElementById('category-menu');
+            
+              burgerButton.addEventListener('click', function(event) {
+                if (menu.style.display === "none") {
+                  menu.style.display = "block";
+                } else {
+                  menu.style.display = "none";
+                }
+                event.stopPropagation(); 
+              });
+            
+              document.addEventListener('click', function() {
+                menu.style.display = "none"; 
+              });
+            </script>
+            
+            <svg
+              class="search2"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.4424 19.2591L17.3508 16.1924C18.5508 14.6961 19.132 12.7968 18.9748 10.8852C18.8175 8.9735 17.9338 7.19474 16.5054 5.91462C15.0769 4.63451 13.2123 3.95034 11.2949 4.00281C9.37745 4.05528 7.55302 4.84039 6.1967 6.1967C4.84039 7.55302 4.05528 9.37745 4.00281 11.2949C3.95034 13.2123 4.63451 15.0769 5.91462 16.5054C7.19474 17.9338 8.9735 18.8175 10.8852 18.9748C12.7968 19.132 14.6961 18.5508 16.1924 17.3508L19.2591 20.4174C19.3366 20.4955 19.4287 20.5575 19.5303 20.5998C19.6318 20.6421 19.7407 20.6639 19.8508 20.6639C19.9608 20.6639 20.0697 20.6421 20.1712 20.5998C20.2728 20.5575 20.3649 20.4955 20.4424 20.4174C20.5926 20.262 20.6766 20.0544 20.6766 19.8383C20.6766 19.6221 20.5926 19.4145 20.4424 19.2591ZM11.5174 17.3508C10.3637 17.3508 9.23588 17.0086 8.27659 16.3677C7.3173 15.7267 6.56963 14.8156 6.12812 13.7497C5.68661 12.6838 5.57109 11.5109 5.79617 10.3794C6.02125 9.24783 6.57682 8.20843 7.39263 7.39263C8.20843 6.57682 9.24783 6.02125 10.3794 5.79617C11.5109 5.57109 12.6838 5.68661 13.7497 6.12812C14.8156 6.56963 15.7267 7.3173 16.3677 8.27659C17.0086 9.23588 17.3508 10.3637 17.3508 11.5174C17.3508 13.0645 16.7362 14.5482 15.6422 15.6422C14.5482 16.7362 13.0645 17.3508 11.5174 17.3508Z"
+                fill="#ECEFF4"
+              />
+            </svg>
+          </div>
+      
+          <div class="xmlid-1">
+            <svg
+              class="xmlid-2"
+              width="41"
+              height="41"
+              viewBox="0 0 41 41"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.795898 20.3189C0.795898 30.8031 8.89114 39.4028 19.1973 40.2251L23.619 29.5354C23.0068 28.6446 22.6326 27.5482 22.6326 26.349C22.6326 26.2462 22.6326 26.1434 22.6326 26.0406L15.7279 21.2782H15.6258C11.4762 21.2782 8.07481 17.8863 8.07481 13.7406C8.07481 9.59494 11.4422 6.20302 15.6258 6.20302C19.7755 6.20302 23.1769 9.59494 23.1769 13.7406C23.1769 13.8092 23.1769 13.8434 23.1769 13.9119L28.0408 20.6958C28.1428 20.6958 28.2109 20.6958 28.3129 20.6958C31.4422 20.6958 33.9592 23.2312 33.9592 26.349C33.9592 29.09 31.9864 31.3855 29.4013 31.8994L26.2381 39.5398C34.6394 37.1758 40.7959 29.4668 40.7959 20.3189C40.7959 9.28659 31.8503 0.344238 20.7959 0.344238C9.74148 0.3785 0.795898 9.32085 0.795898 20.3189ZM31.136 27.7195L30.1156 30.1863C31.034 29.7409 31.7823 28.9872 32.1905 27.9936C33.0748 25.8351 32.0544 23.334 29.9115 22.4431C28.8571 21.9977 27.7007 21.9977 26.6462 22.4431C25.5918 22.8886 24.7755 23.6766 24.3333 24.7387C23.8911 25.7666 23.9251 26.8972 24.2993 27.8565L25.3537 25.3211C26.034 23.7451 27.8367 22.9913 29.4354 23.6423C31.068 24.2933 31.8163 26.1092 31.136 27.7195ZM15.6258 8.7384C12.8707 8.7384 10.5918 10.9997 10.5918 13.7406C10.5918 16.5158 12.8367 18.7429 15.6258 18.7429C18.3809 18.7429 20.6598 16.4816 20.6598 13.7406C20.6598 10.9654 18.4149 8.7384 15.6258 8.7384ZM15.6258 17.5094C13.551 17.5094 11.8503 15.8306 11.8503 13.7406C11.8503 11.6507 13.551 9.97182 15.6258 9.97182C17.7007 9.97182 19.4013 11.6507 19.4013 13.7406C19.4013 15.8306 17.7007 17.5094 15.6258 17.5094Z"
+                fill="#ECEFF4"
+              />
+            </svg>
+      
+            <svg
+              class="frame-33"
+              width="88"
+              height="17"
+              viewBox="0 0 88 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.4218 3.66261H7.74833V16.1116H4.58507V3.66261H0.469421V1.07758H11.4218V3.66261Z"
+                fill="#ECEFF4"
+                fill-opacity="0.9"
+              />
+              <path
+                d="M24.4558 16.1116H14.4218V1.07758H24.4558V3.66261H17.6191V7.23404H23.5375V9.81907H17.6191V13.5266H24.4558V16.1116Z"
+                fill="#ECEFF4"
+                fill-opacity="0.9"
+              />
+              <path
+                d="M35.517 0.890503H32.932L27.4558 16.2987H30.6531L31.5715 13.7817H36.5715L37.4898 16.2987H40.9932L35.517 0.890503ZM32.4558 11.2647L34.2925 5.78846L36.1293 11.2647H32.4558Z"
+                fill="#ECEFF4"
+                fill-opacity="0.9"
+              />
+              <path
+                d="M59.6055 16.1116H56.2381V7.37009L52.9048 16.1116H50.864L47.5647 7.37009V16.1116H43.9932V1.07758H48.2109L51.8844 11.2817L55.5919 1.07758H59.6055V16.1116Z"
+                fill="#ECEFF4"
+                fill-opacity="0.9"
+              />
+              <path
+                d="M73.5578 11.7068C73.5578 14.8021 70.8368 16.2306 68.0817 16.2646C65.3606 16.2646 63.5238 15.6184 62.6055 14.2578L64.4422 12.3871C65.3606 13.2034 66.2789 13.6796 68.0817 13.6796C69.8844 13.6796 70.8028 13.0333 70.8028 11.8089C70.8028 10.6524 69.8844 10.1762 68.966 9.97212L67.1293 9.73402C64.4082 9.35987 63.0136 7.96531 63.0136 5.48232C63.0136 4.12178 63.4558 3.03335 64.3742 2.14899C65.2925 1.33266 66.6531 0.9245 68.0136 0.9245C70.2925 0.9245 71.6531 1.50273 73.0136 2.6592L71.1769 4.52994C70.2585 3.84967 69.3402 3.47552 67.9796 3.47552C66.6191 3.57756 65.7007 4.05375 65.7007 5.38028C65.7007 6.43471 66.6191 6.94491 67.5374 7.01293L69.3742 7.28504C71.7211 7.59117 73.5578 9.1558 73.5578 11.7068Z"
+                fill="#ECEFF4"
+              />
+              <path
+                d="M87.5102 11.7068C87.5102 14.8021 84.7892 16.2306 82.0341 16.2646C79.313 16.2646 77.4762 15.6184 76.5579 14.2578L78.3946 12.3871C79.313 13.2034 80.2313 13.6796 82.0341 13.6796C83.8368 13.6796 84.7551 13.0333 84.7551 11.8089C84.7551 10.6524 83.8368 10.1762 82.9184 9.97212L81.0817 9.73402C78.3606 9.35987 76.966 7.96531 76.966 5.48232C76.966 4.12178 77.4082 3.03335 78.3266 2.14899C79.2449 1.33266 80.6055 0.9245 81.966 0.9245C84.2449 0.9245 85.6055 1.50273 86.966 2.6592L85.1293 4.52994C84.2109 3.84967 83.2926 3.47552 81.932 3.47552C80.5715 3.57756 79.6531 4.05375 79.6531 5.38028C79.6531 6.43471 80.5715 6.94491 81.4898 7.01293L83.3266 7.28504C85.6735 7.59117 87.5102 9.1558 87.5102 11.7068Z"
+                fill="#ECEFF4"
+              />
+            </svg>
+          </div>
+      
+          <div class="frame-7">
+            <svg
+              class="frame"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_3_346)">
+                <path
+                  d="M4.00157 19.6763C4.00157 19.855 4.15077 20 4.33483 20L19.6641 20C19.8482 20 19.9974 19.8551 19.9974 19.6763V19.2897C20.005 19.1732 20.0206 18.5918 19.6374 17.949C19.3957 17.5437 19.045 17.1936 18.5949 16.9083C18.0503 16.5633 17.3577 16.3133 16.5199 16.1627C16.5137 16.1619 15.8925 16.0796 15.256 15.9171C14.1478 15.634 14.0509 15.3835 14.0503 15.381C14.0437 15.3563 14.0343 15.3325 14.0222 15.3101C14.0132 15.2634 13.9908 15.0875 14.0336 14.6163C14.1423 13.4194 14.7843 12.712 15.3002 12.1437C15.4629 11.9644 15.6165 11.7951 15.7349 11.6291C16.2453 10.9129 16.2927 10.0985 16.2949 10.048C16.2949 9.94573 16.2831 9.86164 16.258 9.7837C16.2079 9.62775 16.1136 9.53057 16.0448 9.45962L16.0443 9.45912C16.0269 9.44126 16.0106 9.42434 15.9972 9.4088C15.9921 9.40286 15.9785 9.38716 15.9909 9.30653C16.0362 9.00973 16.0634 8.76122 16.0764 8.52446C16.0997 8.10265 16.1178 7.47183 16.009 6.85789C15.9956 6.75305 15.9725 6.64232 15.9366 6.5104C15.8216 6.08764 15.637 5.72619 15.3804 5.42789C15.3362 5.37988 14.2634 4.2496 11.149 4.01769C10.7183 3.98562 10.2926 4.0029 9.87351 4.02432C9.7725 4.02931 9.63419 4.03616 9.50475 4.0697C9.1832 4.153 9.09739 4.35681 9.07486 4.47088C9.03751 4.65982 9.10316 4.8068 9.14657 4.90408V4.90408V4.9041C9.15288 4.9182 9.16067 4.93563 9.14707 4.98104C9.07478 5.093 8.96105 5.19394 8.84509 5.28957C8.81158 5.31805 8.03061 5.99144 7.98766 6.87112C7.87187 7.54013 7.88063 8.58248 8.01756 9.30291C8.02551 9.34269 8.03726 9.4016 8.01819 9.44139C7.87095 9.57335 7.70404 9.7229 7.70446 10.0642C7.70623 10.0985 7.7536 10.9129 8.26408 11.6291C8.38231 11.795 8.53583 11.9642 8.6984 12.1433L8.69878 12.1437V12.1437C9.21465 12.712 9.85663 13.4194 9.96539 14.6162C10.0082 15.0875 9.98577 15.2634 9.97671 15.3101C9.96463 15.3324 9.9552 15.3562 9.94871 15.381C9.94804 15.3834 9.85153 15.6331 8.74829 15.9156C8.11183 16.0786 7.48526 16.1619 7.46657 16.1646C6.65238 16.302 5.96395 16.5458 5.42043 16.8891C4.97185 17.1724 4.62044 17.5232 4.37595 17.9317C3.98534 18.5844 3.9959 19.1788 4.00157 19.2873V19.6763Z"
+                  fill="#CCCCCC"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_3_346">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+      
+            <div class="login">Login</div>
+          </div>
+        </div>
+      
+        <div class="frame-242">
+          <div class="frame-241">
+            <img class="banner-gamehot" src="asset/index/bannerGamehot.jpg" />
+      
+            <div class="frame-240">
+              <div class="coming-soon">coming soon</div>
+      
+              <div class="frame-32">
+                <div class="frame-31">
+                  <div class="time-game-hot">9:00 - 19/06</div>
+      
+                  <div class="description-game-hot">
+                    Let&#039;s go on an adventure with the moon and the sky, learn
+                    about the wonders of the cosmos, and play the enjoyable game of
+                    cutting and slicing with wise friends.
+                  </div>
+                </div>
+      
+                <div class="frame-30"> <a href="detail1101.html">Make An Appointment</a></div>
+                </div>
+            </div>
+          </div>
+      
+          <div class="frame-302">
+            <div class="frame-26">
+              <div class="frame-25">
+                <img class="game-hot-1" src="asset/index/gameHot1.jpg" />
+                <a href="detail1101.html"> <div class="game-hot-12">Mageseeker</div> </a>
+              </div>
+            </div>
+      
+            <div class="frame-252">
+              <div class="frame-25">
+                <img class="game-hot-2" src="asset/index/gameHot2.jpg" />
+                <a href="detail1102.html"> <div class="game-hot-22">Satisfactory</div> </a>
+              </div>
+            </div>
+      
+            <div class="frame-21">
+              <div class="frame-25">
+                <img class="game-hot-3" src="asset/index/gameHot3.jpg" />
+                <a href="detail11024.html"> <div class="game-hot-32">Factorio</div> </a>
+              </div>
+            </div>
+      
+            <div class="frame-27">
+              <div class="frame-25">
+                <img class="game-hot-4" src="asset/index/gameHot4.jpg" />
+                <a href="detail1103.html"> <div class="game-hot-42">Raft</div> </a>
+              </div>
+            </div>
+      
+            <div class="frame-28">
+              <div class="frame-25">
+                <img class="game-hot-5" src="asset/index/gameHot5.jpg" />
+                <a href="detail11025.html"> <div class="game-hot-52">Jurrasic World</div> </a>
+              </div>
+            </div>
+      
+            <div class="frame-29">
+              <div class="frame-25">
+                <img class="game-hot-6" src="asset/index/gameHot6.jpg" />
+                <a href="detail11026.html"> <div class="game-hot-62">Dawn</div> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="frame-34">
+          <div class="rectangle-27"></div>
+      
+          <div class="rectangle-28"></div>
+      
+          <div class="rectangle-29"></div>
+      
+          <div class="rectangle-30"></div>
+      
+          <div class="rectangle-31"></div>
+        </div>
+      
+        <div class="frame-237">
+          <svg
+            class="expand-left"
+            width="50"
+            height="50"
+            viewBox="0 0 50 50"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.25 12.5L18.75 25L31.25 37.5"
+              stroke="#CCD2E3"
+              stroke-width="2"
+            />
+          </svg>
+      
+          <div class="frame-236">
+            <div class="frame-239">
+                <div class="mask-group">
+                  <div class="rectangle-24"></div>
+                  <img class="toptrending-1" src="asset/index/toptrending1.jpg" />
+                </div>
+                <div class="mask-group">
+                  <div class="rectangle-25"></div>
+                  <img class="toptrending-2" src="asset/index/toptrending2.jpg" />
+                  
+                </div>
+                <div class="mask-group">
+                  <div class="rectangle-26"></div>
+                  <img class="toptrending-3" src="asset/index/toptrending3.jpg" />
+                </div>
+              </div>              
+          </div>
+      
+          <svg
+            class="expand-right"
+            width="50"
+            height="50"
+            viewBox="0 0 50 50"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.75 12.5L31.25 25L18.75 37.5"
+              stroke="#CCD2E3"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+      
+        <div class="top-trending">TOP TRENDING</div>
+      
+        <div class="hot-game">HOT GAME</div>
+      
+        <div class="frame-303"> Explore all available games</div>
+      
+        <div class="frame-244">
+            <div class="frame-243">
+                <div class="mask-group2">
+                  <div class="rectangle-43"></div>
+                  <img class="hotgameh-1" src="asset/index/hotgameh1.jpg" />
+                </div>
+              
+                <div class="mask-group2">
+                  <div class="rectangle-432"></div>
+                  <img class="hotgameh-2" src="asset/index/hotgameh2.jpg" />
+                </div>
+              
+                <div class="mask-group2">
+                  <div class="rectangle-433"></div>
+                  <img class="hotgameh-3" src="asset/index/hotgameh3.jpg" />
+                </div>
+              </div>
+      
+          <div class="frame-46">
+            <div class="frame-40">
+              <img class="hotgamev1" src="asset/index/hotgamev1.jpg">
+      
+              <div class="gamev 1">
+                <div class="title_1">Tiny Tina&#039;s Wonderlands</div>
+              </div>
+            </div>
+      
+            <div class="frame-41">
+              <img class="hotgamev2" src="asset/index/hotgamev2.jpg" />
+      
+              <div class="gamev2">
+                <div class="title_2">Football Manager 2022</div>
+              </div>
+            </div>
+      
+            <div class="frame-42">
+              <img class="hotgamev3" src="asset/index/hotgamev3.jpg" />
+      
+              <div class="gamev3">
+                <div class="title_3">Salt and Sacrifice</div>
+              </div>
+            </div>
+      
+            <div class="frame-43">
+              <img class="hotgamev4" src="asset/index/hotgamev4.jpg" />
+      
+              <div class="gamev4">
+                <div class="title_4">KINGDOM HEARTS III + Re Mind (DLC)</div>
+              </div>
+            </div>
+      
+            <div class="frame-44">
+              <img class="hotgamev5" src="asset/index/hotgamev5.jpg" />
+      
+              <div class="gamev5">
+                <div class="title_5">God of War</div>
+              </div>
+            </div>
+      
+            <div class="frame-45">
+              <img class="hotgamev6" src="asset/index/hotgamev6.jpg" />
+      
+              <div class="gamev6">
+                <div class="title_6">LEGO® Star Wars™: The Skywalker Saga</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="frame-245">
+          <div class="frame-243">
+            <div class="mask-group2">
+              <div class="rectangle-43"></div>
+      
+              <img class="hotgameh-4" src="asset/index/hotgameh4.jpg" />
+            </div>
+      
+            <div class="mask-group2">
+              <div class="rectangle-432"></div>
+      
+              <img class="hotgameh-5" src="asset/index/hotgameh5.jpg" />
+            </div>
+      
+            <div class="mask-group2">
+              <div class="rectangle-433"></div>
+      
+              <img class="hotgameh-6" src="asset/index/hotgameh6.jpg" />
+            </div>
+          </div>
+      
+          <div class="frame-46">
+            <div class="frame-40">
+              <img class="hotgamev7" src="asset/index/hotgamev7.jpg" />
+      
+              <div class="gamev7">
+                <div class="title_7">Tiny Tina&#039;s Wonderlands</div>
+              </div>
+            </div>
+      
+            <div class="frame-41">
+              <img class="hotgamev8" src="asset/index/hotgamev8.jpg" />
+      
+              <div class="gamev8">
+                <div class="title_8">Football Manager 2022</div>
+              </div>
+            </div>
+      
+            <div class="frame-42">
+              <img class="hotgamev9" src="asset/index/hotgamev9.jpg" />
+      
+              <div class="gamev9">
+                <div class="title_9">Salt and Sacrifice</div>
+              </div>
+            </div>
+      
+            <div class="frame-43">
+              <img class="hotgamev10" src="asset/index/hotgamev10.jpg" />
+      
+              <div class="gamev10">
+                <div class="title_10">KINGDOM HEARTS III + Re Mind (DLC)</div>
+              </div>
+            </div>
+      
+            <div class="frame-44">
+              <img class="hotgamev11" src="asset/index/hotgamev11.jpg" />
+      
+              <div class="gamev11">
+                <div class="title_11">God of War</div>
+              </div>
+            </div>
+      
+            <div class="frame-45">
+              <img class="hotgamev12" src="asset/index/hotgamev12.jpg" />
+      
+              <div class="gamev12">
+                <div class="title_12">LEGO® Star Wars™: The Skywalker Saga</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

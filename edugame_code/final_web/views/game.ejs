@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= game.title %></title>
+</head>
+<body>
+    <h1><%= game.title %></h1>
+    <p>Average rating: <%= game.average_rating %></p>
+    <p>Age Group: <%= game.age_group %></p>
+    <p>Description: <%= game.description %></p>
+    <p>Min Players: <%= game.min_players %></p>
+    <p>Max Players: <%= game.max_players %></p>
+    <p>Date of Published: <%= new Date(game.date_of_published).toLocaleDateString() %></p>
+    <p>URL: <a href="<%= game.game_url %>"><%= game.game_url %></a></p>
+    <p>Publisher: <a href="/publishers/<%= game.publisher_id %>"><%= game.publisher_name %></a></p>
+    <p>Tag: <a href="/categories/<%= game.category_id %>"><%= game.nametag %></a></p>
+
+    <h2>Images</h2>
+    <% game.images.forEach(function(image) { %>
+      <img src="<%= image.image_url %>" alt="Image <%= image.image_id %>">
+    <% }); %>    
+
+</body>
+</html>

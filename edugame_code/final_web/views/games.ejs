@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Games</title>
+</head>
+<body>
+    <h1>Games</h1>
+    <ul>
+        <% games.forEach(function(game) { %>
+            <li>
+                <a href="/games/<%= game.game_id %>">
+                    <%= game.title %>
+                </a>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>

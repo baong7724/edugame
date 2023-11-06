@@ -1,0 +1,1099 @@
+body {
+    transform-origin: top left;
+    transform: scale(0.95); 
+  }
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto; 
+  }
+  
+  #content {
+    max-width: 100%;
+    max-height: 100%;
+  }  
+.homepage,
+.homepage * {
+  box-sizing: border-box;
+}
+.homepage {
+  background: #171a21;
+  width: 1440px;
+  height: 3019px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-238 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 53px;
+  top: 1px;
+}
+.rectangle-23 {
+  background: #171a21;
+  flex-shrink: 0;
+  width: 1327px;
+  height: 80px;
+  position: relative;
+}
+.group-27 {
+  flex-shrink: 0;
+  width: 1320px;
+  height: 58px;
+  position: static;
+}
+.rectangle-2 {
+  background: #2c313d;
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  left: 302px;
+  top: 89px;
+}
+.rectangle-5 {
+  background: #2c313d;
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  left: 1239px;
+  top: 89px;
+}
+.rectangle-4 {
+  background: #2c313d;
+  width: 1320px;
+  height: 1px;
+  position: absolute;
+  left: 7px;
+  top: 80px;
+}
+.rectangle-6 {
+  background: #2c313d;
+  width: 1320px;
+  height: 1px;
+  position: absolute;
+  left: 7px;
+  top: 137px;
+}
+.search {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  opacity: 0.4000000059604645;
+  position: absolute;
+  left: 356px;
+  top: 99px;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 63px;
+  top: 99px;
+}
+.games {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.favorites {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.history {
+  color: #eceff4;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.burger {
+  position: absolute;
+  left: 15px;
+  top: 97px;
+  overflow: visible;
+}
+.search2 {
+  position: absolute;
+  left: 324px;
+  top: 97px;
+  overflow: visible;
+}
+.xmlid-1 {
+  flex-shrink: 0;
+  width: 132.71px;
+  height: 39.88px;
+  position: static;
+}
+.xmlid-2 {
+  position: absolute;
+  left: 6.8px;
+  top: 59.23px;
+  transform: translate(0px, -39.88px);
+  overflow: visible;
+}
+.frame-33 {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 52.47px;
+  top: 30.89px;
+  overflow: visible;
+}
+.frame-7 {
+  padding: 0px 14px 0px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 52px;
+  position: absolute;
+  left: 1239px;
+  top: 82px;
+}
+.frame {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.login {
+  color: #e7e7e7;
+  text-align: left;
+  font: 400 12px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-242 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 66px;
+  top: 174px;
+}
+.frame-241 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.banner-gamehot {
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 1041px;
+  height: 648px;
+  position: relative;
+}
+.frame-240 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 30px;
+  top: 337px;
+}
+.coming-soon {
+  color: #eceff4;
+  text-align: left;
+  font: 700 12px/12px "SF Pro Display", sans-serif;
+  text-transform: uppercase;
+  opacity: 0.6000000238418579;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.frame-32 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 387px;
+  position: relative;
+}
+.frame-31 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 349px;
+  position: relative;
+}
+.time-game-hot {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.description-game-hot {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 387px;
+}
+.frame-30 {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 13px 16px 13px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 2px 1px 4px 0px rgba(255, 255, 255, 0.14);
+  color: rgba(0, 0, 0, 0.72);
+  text-align: left;
+  font: 700 16px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.frame-30:hover {
+    background: #1c3367;
+    border-radius: 4px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 2px 1px 4px 0px rgba(255, 255, 255, 0.14);
+    color: #ffffff;
+}
+.frame-302 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-26 {
+  border-radius: 16px;
+  padding: 13px 16px 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 105.5px;
+  position: relative;
+}
+.frame-26:hover {
+    background-color: rgba(28, 51, 103, 0.15);
+    border-radius: 16px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 105.5px;
+    position: relative;
+  }
+.frame-25 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.game-hot-1 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 60px;
+  height: 80px;
+  position: relative;
+}
+.game-hot-12 {
+  color: #f5f5f5;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 148px;
+}
+.frame-252 {
+    border-radius: 16px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 105.5px;
+    position: relative;
+  }
+.frame-252:hover {
+  border-radius: 16px;
+  background-color: rgba(28, 51, 103, 0.15);
+  padding: 13px 16px 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 105.5px;
+  position: relative;
+}
+.game-hot-2 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 60px;
+  height: 80px;
+  position: relative;
+}
+.game-hot-22 {
+  color: #f5f5f5;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 148px;
+}
+.frame-21 {
+    border-radius: 16px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 105.5px;
+    position: relative;
+  }
+.frame-21:hover {
+  border-radius: 16px;
+  padding: 13px 16px 13px 16px;
+  background-color: rgba(28, 51, 103, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 105.5px;
+  position: relative;
+}
+.game-hot-3 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 60px;
+  height: 80px;
+  position: relative;
+}
+.game-hot-32 {
+  color: #f5f5f5;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 148px;
+}
+.frame-27 {
+  border-radius: 16px;
+  padding: 13px 16px 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 105.5px;
+  position: relative;
+}
+.frame-27:hover {
+    border-radius: 16px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    background-color: rgba(28, 51, 103, 0.15);
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 105.5px;
+    position: relative;
+  }
+.game-hot-4 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 60px;
+  height: 80px;
+  position: relative;
+}
+.game-hot-42 {
+  color: #f5f5f5;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 148px;
+}
+.frame-28 {
+  border-radius: 16px;
+  padding: 13px 16px 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 105.5px;
+  position: relative;
+}
+.frame-28:hover {
+    border-radius: 16px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(28, 51, 103, 0.15);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 105.5px;
+    position: relative;
+  }
+.game-hot-5 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 60px;
+  height: 80px;
+  position: relative;
+}
+.game-hot-52 {
+  color: #f5f5f5;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 148px;
+}
+.frame-29 {
+  border-radius: 16px;
+  padding: 13px 16px 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 105.5px;
+  position: relative;
+}
+.frame-29:hover {
+    border-radius: 16px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(28, 51, 103, 0.15);
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 105.5px;
+    position: relative;
+  }
+.game-hot-6 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 60px;
+  height: 80px;
+  position: relative;
+}
+.game-hot-62 {
+  color: #f5f5f5;
+  text-align: left;
+  font: 400 16px "SF Pro Display", sans-serif;
+  position: relative;
+  width: 148px;
+}
+.frame-34 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 593px;
+  top: 1559px;
+}
+.rectangle-27 {
+  background: rgba(248, 248, 248, 0.79);
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 39px;
+  height: 10px;
+  position: relative;
+}
+.rectangle-28 {
+  background: rgba(28, 51, 103, 0.35);
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 39px;
+  height: 10px;
+  position: relative;
+}
+.rectangle-29 {
+  background: rgba(28, 51, 103, 0.35);
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 39px;
+  height: 10px;
+  position: relative;
+}
+.rectangle-30 {
+  background: rgba(28, 51, 103, 0.35);
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 39px;
+  height: 10px;
+  position: relative;
+}
+.rectangle-31 {
+  background: rgba(28, 51, 103, 0.35);
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 39px;
+  height: 10px;
+  position: relative;
+}
+.frame-237 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 5px;
+  top: 938px;
+}
+.expand-left {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-236 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}  
+.frame-239 {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .mask-group {
+    position: relative;
+    width: 424px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 20px;
+    filter: drop-shadow(1px 3px 4px rgba(131, 150, 195, 0.16));
+  }
+  
+  .rectangle-24,
+  .rectangle-25,
+  .rectangle-26 {
+    background: #d9d9d9;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .toptrending-1,
+  .toptrending-2,
+  .toptrending-3 {
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
+  
+.expand-right {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.top-trending {
+  color: #ffffff;
+  text-align: left;
+  font: 700 40px "SF Pro Display", sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 868px;
+}
+.hot-game {
+  color: #ffffff;
+  text-align: left;
+  font: 700 40px "SF Pro Display", sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 1608px;
+}
+.frame-303 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 13px 16px 13px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 114px);
+  top: 2916px;
+  box-shadow: 2px 1px 4px 0px rgba(255, 255, 255, 0.14);
+  color: rgba(0, 0, 0, 0.72);
+  font: 700 16px "SF Pro Display", sans-serif;
+}
+.frame-303:hover {
+    background: #1C3367;
+    border-radius: 10px;
+    padding: 13px 16px 13px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 114px);
+    top: 2916px;
+    box-shadow: 2px 1px 4px 0px rgba(255, 255, 255, 0.14);
+    color: #ffffff;
+    font: 700 16px "SF Pro Display", sans-serif;
+  }
+  .frame-244 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    left: 52px;
+    top: 1670px;
+  }
+  .frame-243 {
+      display: flex;
+      flex-direction: row;
+      gap: 27px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+    
+    .mask-group2 {
+      width: 424px;
+      height: 239px;
+      position: relative;
+      overflow: hidden; 
+    }
+    
+    .rectangle-43 {
+      background: #d9d9d9;
+      border-radius: 16px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .hotgameh-1,
+    .hotgameh-2,
+    .hotgameh-3,
+    .hotgameh-4,
+    .hotgameh-5,
+    .hotgameh-6
+     {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+      transform: scaleX(-1); 
+    }
+  .frame-46 {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-40 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hotgamev1,.hotgamev7{
+    border-radius: 4px;
+    flex-shrink: 0;
+    width: 213px;
+    height: 284px;
+    position: relative;
+  }
+  .gamev1, .gamev7 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 213px;
+    position: relative;
+  }
+  .title_1, .title_7 {
+    color: #f5f5f5;
+    text-align: center;
+    font: 500 16px "SF Pro Display", sans-serif;
+    position: relative;
+  }
+  .frame-41 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hotgamev2,.hotgamev8 {
+    border-radius: 4px;
+    flex-shrink: 0;
+    width: 213px;
+    height: 284px;
+    position: relative;
+  }
+  .gamev2,.gamev8 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 213px;
+    position: relative;
+  }
+  .title_2,.title_8 {
+    color: #f5f5f5;
+    text-align: center;
+    font: 500 16px "SF Pro Display", sans-serif;
+    position: relative;
+    width: 213px;
+  }
+  .frame-42 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hotgamev3,.hotgamev9 {
+    border-radius: 4px;
+    flex-shrink: 0;
+    width: 213px;
+    height: 284px;
+    position: relative;
+  }
+  .gamev3,.gamev9 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 213px;
+    position: relative;
+  }
+  .title_3,.title_9 {
+    color: #f5f5f5;
+    text-align: center;
+    font: 500 16px "SF Pro Display", sans-serif;
+    position: relative;
+    width: 213px;
+  }
+  .frame-43 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hotgamev4,.hotgamev10 {
+    border-radius: 4px;
+    flex-shrink: 0;
+    width: 213px;
+    height: 284px;
+    position: relative;
+  }
+  .gamev4,.gamev10 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 213px;
+    position: relative;
+  }
+  .title_4,.title_10 {
+    color: #f5f5f5;
+    text-align: center;
+    font: 500 16px "SF Pro Display", sans-serif;
+    position: relative;
+    width: 213px;
+    height: 24px;
+  }
+  .frame-44 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hotgamev5,.hotgamev11 {
+    border-radius: 4px;
+    flex-shrink: 0;
+    width: 213px;
+    height: 284px;
+    position: relative;
+  }
+  .gamev5,.gamev11 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 213px;
+    position: relative;
+  }
+  .title_5,.title_11 {
+    color: #f5f5f5;
+    text-align: center;
+    font: 500 16px "SF Pro Display", sans-serif;
+    position: relative;
+  }
+  .frame-45 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 213px;
+    position: relative;
+  }
+  .hotgamev6,.hotgamev12 {
+    border-radius: 4px;
+    flex-shrink: 0;
+    width: 213px;
+    height: 284px;
+    position: relative;
+  }
+  .gamev6,.gamev12 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 213px;
+    position: relative;
+  }
+  .title_6,.title_12 {
+    color: #f5f5f5;
+    text-align: center;
+    font: 500 16px "SF Pro Display", sans-serif;
+    position: relative;
+    width: 213px;
+    height: 24px;
+  }
+  .frame-245 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    left: 55px;
+    top: 2293px;
+  }  
+#category-menu {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  transform: translateY(40px);
+  z-index: 1000;
+}
+.catgories-box {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-246 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 22px;
+  top: 33px;
+}
+.categories {
+  color: #121212;
+  text-align: left;
+  font: 700 20px/20px "SF Pro Display", sans-serif;
+  position: relative;
+}
+.category {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.category-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._201, ._202, ._203, ._204, ._205,
+._206, ._207, ._208, ._209, ._2010,
+._2011, ._2012, ._2013, ._2014, ._2015,
+._2016, ._2017, ._2018, ._2019, ._2020{
+  background: #2a2a2a;
+  border-radius: 4px;
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "SF Pro Display", sans-serif;
+  position: relative;
+}
+
+._201:hover, ._202:hover, ._203:hover, ._204:hover, ._205:hover,
+._206:hover, ._207:hover, ._208:hover, ._209:hover, ._2010:hover,
+._2011:hover, ._2012:hover, ._2013:hover, ._2014:hover, ._2015:hover,
+._2016:hover, ._2017:hover, ._2018:hover, ._2019:hover, ._2020:hover   {
+  background: #0074E4;
+  border-radius: 4px;
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  color: #ffffff;
+}
+.category-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.category-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.category-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}

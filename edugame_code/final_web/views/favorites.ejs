@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Member Favorites</title>
+</head>
+<body>
+    <h1>Member Favorites</h1>
+    <ul>
+        <% members.forEach(function(member) { %>
+            <li>
+                <a href="/favorites/<%= member.member_id %>">
+                    Member ID: <%= member.member_id %>
+                </a>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>

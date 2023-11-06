@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Publisher</title>
+</head>
+<body>
+    <h1><%= publisher.name %></h1>
+    <p>Address: <%= publisher.address %></p>
+    <p>Phone: <%= publisher.phone_number %></p>
+    <p>Description: <%= publisher.description %></p>
+
+    <h2>Games by <%= publisher.name %></h2>
+    <ul>
+        <% games.forEach(function(game) { %>
+        <li>
+            <a href="/games/<%= game.game_id %>"><%= game.title %></a>
+        </li>
+    <% }); %>
+    </ul>
+</body>
+</html>
